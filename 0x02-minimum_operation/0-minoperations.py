@@ -1,5 +1,10 @@
 #!/usr/bin/python3
+
 def minOperations(n):
+    """
+        minOperationd file for less road
+    """
+
     # If n is 1 or less, no operations are needed or possible
     if n <= 1:
         return 0
