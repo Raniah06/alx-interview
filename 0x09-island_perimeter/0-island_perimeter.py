@@ -6,10 +6,10 @@ Module to calculate the perimeter of an island in a grid.
 def island_perimeter(grid):
     """
     Calculate the perimeter of the island described in the grid.
-    
+
     Args:
         grid (list of list of int): The grid representation of the map.
-    
+
     Returns:
         int: The perimeter of the island.
     """
