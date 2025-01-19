@@ -13,7 +13,7 @@ def makeChange(coins, total):
         total (int): The target amount.
 
     Returns:
-        int: The minimum number of coins needed to meet the total, or -1 if not possible.
+        int: The minimum number of coins needed to meet the total, or -1 not
     """
     if total <= 0:
         return 0
@@ -24,7 +24,7 @@ def makeChange(coins, total):
     for coin in coins:
         if total == 0:
             break
-        count = total // coin  # Determine how many of this coin can fit into the total
+        count = total // coin  # Determine how many of this coin can fit
         num_coins += count
         total -= count * coin  # Reduce the total by the value of coins used
 
